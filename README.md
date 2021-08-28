@@ -9,7 +9,7 @@
 `go run main.go`
 
 ## Steps to play
-<br>
+
 **1. Enter username**
 <br>
 **2. Enter choice - Rock, Paper & Scissor**
