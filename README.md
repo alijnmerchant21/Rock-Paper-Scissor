@@ -16,6 +16,9 @@
 <br> <br>
 **The program automatically generates a choice using *random function generator* and displays the result**
 
+**Example**
+![Image] (https://github.com/alijnmerchant21/Rock-Paper-Scissor/blob/main/img/rps-ss.png)
+
 ### Thank you for playing.
 
 ## Coming next - The game will be played over Blockchain. Most like Cosmos.
