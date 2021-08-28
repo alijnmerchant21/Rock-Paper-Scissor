@@ -13,7 +13,7 @@
 **1. Enter username**
 <br>
 **2. Enter choice - Rock, Paper & Scissor**
-<br>
+<br> <br>
 **The program automatically generates a choice using *random function generator* and displays the result**
 
 ### Thank you for playing.
