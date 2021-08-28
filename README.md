@@ -21,4 +21,4 @@
 
 ### Thank you for playing.
 
-## Coming next - The game will be played over Blockchain. Most like Cosmos.
+## Coming next - The game will be played over Blockchain. Most likely on Cosmos.
