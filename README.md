@@ -9,7 +9,9 @@
 `go run main.go`
 
 ## Steps to play
+<br>
 **1. Enter username**
+<br>
 **2. Enter choice - Rock, Paper & Scissor**
 <br>
 **The program automatically generates a choice using *random function generator* and displays the result**
