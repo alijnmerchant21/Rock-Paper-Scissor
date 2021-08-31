@@ -17,6 +17,7 @@
 **The program automatically generates a choice using *random function generator* and displays the result**
 
 **Example**
+<br>
 ![Image](https://github.com/alijnmerchant21/Rock-Paper-Scissor/blob/main/img/rps-ss1.png)
 
 ### Thank you for playing.
