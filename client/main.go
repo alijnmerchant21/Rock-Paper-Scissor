@@ -38,7 +38,6 @@ func main() {
 	switch ch1 {
 
 	case 1:
-		//fmt.Println("\n" + user1 + " your choice is Rock")
 		if cp == 1 {
 			fmt.Println("\n\n Game is a draw")
 		}
@@ -50,7 +49,6 @@ func main() {
 		}
 
 	case 2:
-		//fmt.Println("\n" + user1 + " your choice is Paper")
 		if cp == 1 {
 			fmt.Println("\n\n" + user1 + " is a winner")
 		}
@@ -62,7 +60,6 @@ func main() {
 		}
 
 	case 3:
-		//fmt.Println("\n" + user1 + " your choice is Scissor")
 		if cp == 1 {
 			fmt.Println("\n\n Computer is a winner")
 		}
@@ -74,41 +71,4 @@ func main() {
 		}
 
 	}
-
-	/*if ch1 == 1 && cp == 1 {
-		fmt.Println("\n" + user1 + " your choice is Rock")
-		fmt.Println("\n Game is a draw")
-	}
-
-	if ch1 == 1 && cp == 2 {
-		fmt.Println("\n Computer is a winner")
-	}
-
-	if ch1 == 1 && cp == 3 {
-		fmt.Println("\n" + user1 + " is a winner")
-	}
-
-	if ch1 == 2 && cp == 1 {
-		fmt.Println("\n" + user1 + " is a winner")
-	}
-
-	if ch1 == 2 && cp == 2 {
-		fmt.Println("\n Game is a draw")
-	}
-
-	if ch1 == 2 && cp == 3 {
-		fmt.Println("\n Computer is a winner")
-	}
-
-	if ch1 == 3 && cp == 1 {
-		fmt.Println("\n Computer is a winner")
-	}
-
-	if ch1 == 3 && cp == 2 {
-		fmt.Println("\n" + user1 + " is a winner")
-	}
-
-	if ch1 == 3 && cp == 3 {
-		fmt.Println("\n Game is a draw")
-	}*/
 }
