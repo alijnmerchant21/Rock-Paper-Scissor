@@ -4,11 +4,9 @@ import (
 	"fmt"
 	"math/rand"
 	"time"
-	//"strconv"
 )
 
 func main() {
-
 	rand.Seed(time.Now().UnixNano())
 	min := 1
 	max := 4
@@ -17,57 +15,62 @@ func main() {
 	var user1 string
 	var ch1 int
 
-	fmt.Println("Welcome to Rock Paper Scissor")
-
-	fmt.Println("\n User enter your name. ")
+	fmt.Println("\nWelcome to Rock Paper Scissor")
+	fmt.Println("\nUser enter your name." + "\n")
 	fmt.Scanln(&user1)
-	//fmt.Println("User 2 enter your name. ")
-	//fmt.Scanln(&user2)
 
 	fmt.Println("\n" + user1 + " v/s " + "Computer")
-
-	fmt.Println("\n" + user1 + " Enter your choice - 1. Rock; 2. Paper; 3. Scissor")
+	fmt.Println("\n" + user1 + " Enter your choice \n1. Rock \n2. Paper \n3. Scissor\n")
 	fmt.Scanln(&ch1)
 
-	//fmt.Println("\n" + user2 + " Enter your choice - 1. Rock; 2. Paper; 3. Scissor")
-	//fmt.Scanln(&ch2)
+	if cp == 1 {
+		fmt.Println("\n\nComputer's choice is Rock")
+	}
+
+	if cp == 2 {
+		fmt.Println("\n\nComputer's choice is Paper")
+	}
+
+	if cp == 3 {
+		fmt.Println("\n\nComputer's choice is Scissor")
+	}
 
 	switch ch1 {
 
 	case 1:
-		fmt.Println("\n" + user1 + " your choice is Rock")
+		//fmt.Println("\n" + user1 + " your choice is Rock")
 		if cp == 1 {
-			fmt.Println("\n Game is a draw")
+			fmt.Println("\n\n Game is a draw")
 		}
 		if cp == 2 {
-			fmt.Println("\n Computer is a winner")
+			fmt.Println("\n\n Computer is a winner")
 		}
 		if cp == 3 {
-			fmt.Println("\n" + user1 + " is a winner")
+			fmt.Println("\n\n" + user1 + " is a winner")
 		}
 
 	case 2:
-		fmt.Println("\n" + user1 + " your choice is Paper")
+		//fmt.Println("\n" + user1 + " your choice is Paper")
 		if cp == 1 {
-			fmt.Println("\n" + user1 + " is a winner")
+			fmt.Println("\n\n" + user1 + " is a winner")
 		}
 		if cp == 2 {
-			fmt.Println("\n Game is a draw")
+			fmt.Println("\n\n Game is a draw")
 		}
 		if cp == 3 {
-			fmt.Println("\n Computer is a winner")
+			fmt.Println("\n\n Computer is a winner")
 		}
 
 	case 3:
-		fmt.Println("\n" + user1 + " your choice is Scissor")
+		//fmt.Println("\n" + user1 + " your choice is Scissor")
 		if cp == 1 {
-			fmt.Println("\n Computer is a winner")
+			fmt.Println("\n\n Computer is a winner")
 		}
 		if cp == 2 {
-			fmt.Println("\n" + user1 + " is a winner")
+			fmt.Println("\n\n" + user1 + " is a winner")
 		}
 		if cp == 3 {
-			fmt.Println("\n Game is a draw")
+			fmt.Println("\n\n Game is a draw")
 		}
 
 	}
